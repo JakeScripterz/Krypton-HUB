@@ -3,9 +3,9 @@ if game.PlaceId == 10449761463 then
    local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
    
    local Window = Rayfield:CreateWindow({
-      Name = "Krypton Hub",
+      Name = "Arsenic Hub",
       Icon = 0, 
-      LoadingTitle = "Krypton Hub Is Loading",
+      LoadingTitle = "Arsenic Hub Is Loading",
       LoadingSubtitle = "by JacKScripterz",
       Theme = "Default",
    
@@ -39,8 +39,8 @@ if game.PlaceId == 10449761463 then
    local MainSection = MainTab:CreateSection("Custom Movesets")
    
    Rayfield:Notify({
-      Title = "Script Executed",
-      Content = "Script has been successfully executed",
+      Title = "Made By JacKScripterz",
+      Content = "Welcome to Arsenic Hub"
       Duration = 5,
       Image = 73716704048839,
    })
@@ -67,6 +67,14 @@ if game.PlaceId == 10449761463 then
    })
 
    local Button = MainTab:CreateButton({
+     Name = "Strongest Hero to Unbounded Gojo",
+     Callback = function()
+        getgenv().morph = false 
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/BaldyToSorcerer/refs/heads/main/LatestV2.lua"))()
+     end,
+   })
+
+   local Button = MainTab:CreateButton({
      Name = "Deadly Ninja to VOLTA",
      Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/VOLTA.lua"))()
@@ -74,11 +82,11 @@ if game.PlaceId == 10449761463 then
    })
 
    local Button = MainTab:CreateButton({
-     Name = "Deadly Ninja to ARCAURA",
+     Name = "Hero Hunter to ARCAURA",
      Callback = function()
         getgenv().OptimizeUltimate = true
         getgenv().ReduceUltFlash = true
-        getgenv().Move1Insta = false
+        getgenv().Move1Insta = true
         getgenv().LowQualityMode = true
         getgenv().BetaConsole = false
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/ARCAURA.lua"))() 
@@ -95,5 +103,45 @@ if game.PlaceId == 10449761463 then
      end,
    })
 
-   Rayfield:LoadConfiguration()
+   local MainSection2 = MainTab:CreateSection("Miscellaneous")
+
+   local Button = MainTab:CreateButton({
+     Name = "Run Tool",
+     Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/JakeScripterz/Run-Tool/refs/heads/main/Phantom%20Dash'))()
+     end,
+   })
+
+   local Button = MainTab:CreateButton({
+     Name = "TP Tool",
+     Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/JakeScripterz/TP-Tool/refs/heads/main/Shadow-Step'))()
+     end,
+   })
+
+   local Slider = MainSection2:CreateSlider({
+     Name = "Walk Speed",
+     Min = 16,
+     Max = 100,
+     Default = 16,
+     Increment = 1,
+     Suffix = "Speed",
+     Callback = function(value)
+         game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = value
+     end,
+   })
+
+   local JumpPowerSlider = MainSection2:CreateSlider({
+     Name = "Jump Power",
+     Min = 50,
+     Max = 200,
+     Default = 50,
+     Increment = 1,
+     Suffix = "Power",
+     Callback = function(value)
+         game.Players.LocalPlayer.Character.Humanoid.JumpPower = value
+     end,
+   })
+
+  Rayfield:LoadConfiguration()
 end
