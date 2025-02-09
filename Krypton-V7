@@ -42,7 +42,7 @@ if game.PlaceId == 10449761463 then
       Title = "Made By JacKScripterz",
       Content = "Welcome to Arsenic Hub"
       Duration = 5,
-      Image = 73716704048839,
+      Image = nil,
    })
    
    local Button = MainTab:CreateButton({
@@ -116,30 +116,6 @@ if game.PlaceId == 10449761463 then
      Name = "TP Tool",
      Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/JakeScripterz/TP-Tool/refs/heads/main/Shadow-Step'))()
-     end,
-   })
-
-   local Slider = MainSection2:CreateSlider({
-     Name = "Walk Speed",
-     Min = 16,
-     Max = 100,
-     Default = 16,
-     Increment = 1,
-     Suffix = "Speed",
-     Callback = function(value)
-         game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = value
-     end,
-   })
-
-   local JumpPowerSlider = MainSection2:CreateSlider({
-     Name = "Jump Power",
-     Min = 50,
-     Max = 200,
-     Default = 50,
-     Increment = 1,
-     Suffix = "Power",
-     Callback = function(value)
-         game.Players.LocalPlayer.Character.Humanoid.JumpPower = value
      end,
    })
 
