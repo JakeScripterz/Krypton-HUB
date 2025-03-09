@@ -672,13 +672,6 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "Blade Master to Zoro V2",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Darker-TheDarkestGuy/Special-Movesets/refs/heads/main/Zoro%20Moveset"))()
-  	end    
-})
-
-Tab:AddButton({
 	Name = "Hero Hunter to Illusion Magic Hero",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/Darker-TheDarkestGuy/Special-Movesets/refs/heads/main/Illusion%20Magic%20Moveset"))()
