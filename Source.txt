@@ -1,0 +1,715 @@
+local player = game.Players.LocalPlayer
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/JakeScripterz/Draggable-UI/refs/heads/main/Orion%20Library.lua.txt')))()
+OrionLib:MakeNotification({
+	Name = "Arsenic Hub Successfully Executed",
+	Content = "Join my discord server plz",
+	Image = "",
+	Time = 3
+})
+
+local Window = OrionLib:MakeWindow({Name = "Arsenic Hub By JakeScripterz", HidePremium = false, SaveConfig = false, ConfigFolder = "OrionTest404S"})
+local Tab = Window:MakeTab({
+	Name = "Main",
+	Icon = "",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Mastery Movesets"
+})
+
+Tab:AddButton({
+	Name = "Strongest Hero to Mastery Saitama",
+	Callback = function()
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/JakeScripterz/Custom-Movesets-Scripts/refs/heads/main/Mastery%20Saitama"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Destructive Cyborg to Mastery Genos",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JakeScripterz/Custom-Movesets-Scripts/refs/heads/main/Mastery%20Genos"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Deadly Ninja to Mastery Sonic",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JakeScripterz/Custom-Movesets-Scripts/refs/heads/main/Mastery%20Sonic"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Hero Hunter to Mastery Garou",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JakeScripterz/Mastery-Garou/refs/heads/main/Mastery"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Blade Master to Mastery Atomic Samurai",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JakeScripterz/Custom-Movesets-Scripts/refs/heads/main/Mastery%20Atomic%20Samurai"))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Naruto Based Movesets"
+})
+
+Tab:AddButton({
+	Name = "Strongest Hero to Naruto",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/LolnotaKid/NarutoBeatUpSasukeAss/refs/heads/main/NarutoCums"))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Dragon Ball Based Movesets"
+})
+
+Tab:AddButton({
+	Name = "Hero Hunter to Ultra Instinct Goku",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JayXSama/ray-makk/main/GOKUTSB"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Hero Hunter to Goku SSJ",
+	Callback = function()
+      	loadstring(game:HttpGet("https://rawscripts.net/raw/The-Strongest-Battlegrounds-Hero-hunter-moveset-into-OP-goku-moveset-17468"))()  
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Deadly Ninja to Goku Black",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Nova2ezz/BlackGoku/refs/heads/main/Protected_5687298824595816.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Hero Hunter to Ultra Ego Vegeta",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JcBoomin/UEVEGETA/refs/heads/main/Script"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Martial Artist to Beast Gohan",
+	Callback = function()
+      		loadstring(game:HttpGet("https://gist.githubusercontent.com/envix2759/fb04c62d5b3ed582f426ee40262b4852/raw/77d417b7c5b450dbe48a3d2e22fa05d9e84967ab/gistfile1.txt"))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Jujutsu Kaisen Based Movesets"
+})
+
+Tab:AddButton({
+	Name = "Strongest Hero to Mahito",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JakeScripterz/Mahito-Script-TSB/refs/heads/main/Mahito%20V3"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Strongest Hero to Mahoraga",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/RXScript/RX-GUI-Version-1/refs/heads/main/Saitama%20To%20Mahoraga%20Moveset"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Strongest Hero to Kinji Hakari",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JakeScripterz/Hakari/refs/heads/main/Hakari%20Moveset"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Strongest Hero to Itadori Yuji",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JakeScripterz/Custom-Movesets-Scripts/refs/heads/main/Sukuna"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Hero Hunter to Shinjuku Yuji",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Kenjihin69/Kenjihin69/refs/heads/main/Yuji%20v1.1"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Blade Master to Yuta Okkutsu",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/damir512/AtomicToYuta/main/Protected_8122576078506000.txt"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Strongest Hero to Jujutsu Shenanigans Gojo",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/damir512/jjsgojov3/main/SaitamaToGojoV3_SOURCE-obfuscated_2.txt"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Strongest Hero to Gojo",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/BaldyToSorcerer/main/Latest.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Strongest Hero to Shibuya Arc Gojo",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/BaldyToSorcerer/refs/heads/main/LatestV2.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Blade Master to Shibuya Arc Sukuna",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/zyrask/Nexus-Base/main/atomic-blademaster%20to%20sukuna"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Strongest Hero to Strongest Of Today",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JakeScripterz/Gojo-V4/refs/heads/main/Gojo"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Strongest Hero to Strongest Of History",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/damir512/sukunasaitamav1/main/thescript",true))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Jojo's Bizarre Adventure Based Movesets"
+})
+
+Tab:AddButton({
+	Name = "Strongest Hero to Za Hando",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JakeScripterz/Custom-Movesets-Scripts/refs/heads/main/Za-Hando"))()
+                loadstring(game:HttpGet("https://pastebin.com/raw/xMKaxyQK"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Strongest Hero to Jotaro Kujo",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/DuckTheSecond/JotaroV1/refs/heads/main/Official",true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Strongest Hero to Kira Yoshikage",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/heeeeloooguy/Test-guys/refs/heads/main/KIRA%20YOSHIKAGE%20SAITAMA"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Hero Hunter to Dio Brando",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/ThanakritScript/StandUserCilent/refs/heads/main/DioBeta.lua",true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Hero Hunter to Enrico Pucci",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/ohiorizzlersigmer/Jojo-movesets/refs/heads/main/Garou%20to%20Pucci%20V2"))()       
+      end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Demon Slayer Based Movesets"
+})
+
+Tab:AddButton({
+	Name = "Hero Hunter to Akaza",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Nova2ezz/AkazaByNovahitta-Nova2ezz/refs/heads/main/Akaza"))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "One Punch Man Based Movesets"
+})
+
+Tab:AddButton({
+	Name = "Hero Hunter to Void Garou",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/yes1nt/yes/refs/heads/main/Void%20Reaper%20Obfuscated.txt"))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Solo Leveling Based Movesets"
+})
+
+Tab:AddButton({
+	Name = "Strongest Hero to Sung Jin Woo",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/hamletirl/sunjingwoo/refs/heads/main/sunjingwoo",true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Strongest Hero to Choi Jong In",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/nil071n/fireman/refs/heads/main/TSB",true))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "My Hero Academia Based Movesets"
+})
+
+Tab:AddButton({
+	Name = "Hero Hunter to Mastery Deku",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JakeScripterz/Mastery-Deku/refs/heads/main/Mastery-Deku"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Martial Artist to Vigilante Deku",
+	Callback = function()
+      		loadstring(game:HttpGet("https://github.com/aggiealledge/obfuscated-scripts/raw/refs/heads/main/deku%20suiryu%20thingy.txt"))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Roblox Lore Movesets"
+})
+
+Tab:AddButton({
+	Name = "Hero Hunter to John Doe",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Luckyfromyoutube/JohnDoe/refs/heads/main/TSBMODEL"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Deadly Ninja to 1x1x1x1",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JakeScripterz/1x1x1x1/refs/heads/main/1X1X1X1"))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Game Based Movesets"
+})
+
+Tab:AddButton({
+	Name = "Strongest Hero to Kratos",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JakeScripterz/Kratos/refs/heads/main/KRATOS%20BY%20JAKESCRIPTERZZZ"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Hero Hunter to V-1",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Nova2ezz/GarouToV1/refs/heads/main/GarouToV1.txt"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Blade Master to Vergil",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Nova2ezz/vergilmoveset/refs/heads/main/Protected_9080797627073616.txt"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Strongest Hero to VHS Sans",
+	Callback = function()
+      		loadstring(game:HttpGet("https://paste.ee/r/rF9d3"))()
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Strongest Hero to GT Chara",
+	Callback = function()
+      		loadstring(game:HttpGet("https://paste.ee/r/0yYkO"))()
+  	end    
+})
+
+
+local Section = Tab:AddSection({
+	Name = "Stickman Universe Movesets"
+})
+
+Tab:AddButton({
+	Name = "Strongest Hero to KadeJ",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JakeScripterz/Custom-Movesets-Scripts/refs/heads/main/KadeJ"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Strongest Hero to Jun",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JakeScripterz/Custom-Movesets-Scripts/refs/heads/main/Jun"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Strongest Hero to Shinji",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastefy.app/8noh51xT/raw"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Hero Hunter to KJ",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/damir512/garoukjv1maybeidk/main/Protected_2460290213750059.txt"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Blade Master to Dark Lord",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Qaiddanial2904/Main/refs/heads/main/Dark%20lord"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "KJ to JK",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JakeScripterz/JK-Script-/refs/heads/main/JK"))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Troll Moveset"
+})
+
+Tab:AddButton({
+	Name = "Strongest Hero to Mixed Moveset",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/Y3uyGSK6"))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Star Glitcher Movesets"
+})
+
+Tab:AddButton({
+	Name = "Star Glitcher",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/SG_DEMO.lua"))()
+  	end    
+})
+
+
+local Section = Tab:AddSection({
+	Name = "Original Movesets"
+})
+
+
+Tab:AddButton({
+	Name = "Hero Hunter to Martial Glitcher",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JakeScripterz/Martial-Glitcher/refs/heads/main/Martial-Glitcher"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Strongest Hero to VEXOR",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/VEXOR.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Hero Hunter to FAVILLA",
+	Callback = function()
+      getgenv().domorph = true
+      getgenv().Rate = .03
+      getgenv().nocam = false
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/FAVILLA.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Hero Hunter to ARCAURA",
+	Callback = function()
+      getgenv().OptimizeUltimate = true
+      getgenv().ReduceUltFlash = true
+      getgenv().Move1Insta = true
+      getgenv().LowQualityMode = true
+      getgenv().BetaConsole = false
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/ARCAURA.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Brutal Demon to APOPHENIA",
+	Callback = function()
+	      getgenv().Music = false
+      getgenv().AttackQuality = 'low'
+      getgenv().ConstantSpeed = true
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/main/APOPHENIA.lua"))()
+	  end    
+})
+
+Tab:AddButton({
+	Name = "Deadly Ninja to VOLTA",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/VOLTA.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Blade Master to AERIS",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/FLOATING_GIRL.lua"))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Fighting",
+	Icon = "",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Fighting"
+})
+
+
+Tab:AddButton({
+	Name = "Auto Tech",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Cyborg883/NewAutoTech/refs/heads/main/Protected_6389347658054908.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Auto Block",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Cyborg883/TSB/refs/heads/main/CombatGui"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Auto Kyoto",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/H8X2Fgd9"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Fake Downslam",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Mautiku/ehh/refs/heads/main/Fake%20downslam.txt"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "No Stun",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JakeScripterz/Screepts/refs/heads/main/No%20Stun"))()          
+  	end    
+})
+
+Tab:AddButton({
+	Name = "AimLock",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Aepione/Prensado/refs/heads/main/Prensado%20camlock"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Death Counter Identifier",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/louismich4el/ItsLouisPlayz-Scripts/main/TSB%20Death%20Counter%20Identifier.lua"))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Blatant",
+	Icon = "",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Blatant"
+})
+
+Tab:AddButton({
+	Name = "Farm Player",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JakeScripterz/Screepts/refs/heads/main/TPOP"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Invisible/Void Kill",
+	Callback = function()
+      		loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Invisible-script-20557"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Fly GUI",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Fling Player GUI",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/ScpGuest666/Random-Roblox-script/refs/heads/main/Roblox%20fling%20script"))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Tools",
+	Icon = "",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Tools"
+})
+
+Tab:AddButton({
+	Name = "Run Tool",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JakeScripterz/Run-Tool/refs/heads/main/Phantom%20Dash"))()
+   	end
+})
+
+Tab:AddButton({
+	Name = "TP Tool",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JakeScripterz/TP-Tool/refs/heads/main/Shadow-Step"))()
+   	end
+})
+
+local Tab = Window:MakeTab({
+	Name = "Dev Tools",
+	Icon = "",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Dev Tools"
+})
+
+Tab:AddButton({
+	Name = "Animation Logger",
+	Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/TMkwdWgY"))()
+   	end
+})
+
+Tab:AddButton({
+	Name = "Dex Explorer",
+	Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Cynacol/Dark-Dex-V3/refs/heads/main/Dark%20Dex%20V3.txt"))()
+   	end
+})
+
+Tab:AddButton({
+	Name = "Infinite Yield",
+	Callback = function()
+      loadstring(game:HttpGet("https://rawscripts.net/raw/Infinite-Yield_500"))()
+   	end
+})
+
+local Tab = Window:MakeTab({
+	Name = "Visual",
+	Icon = "",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Visual"
+})
+
+Tab:AddButton({
+	Name = "PShade Ultimate",
+	Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/randomstring0/pshade-ultimate/refs/heads/main/src/cd.lua"))()
+   	end
+})
+
+OrionLib:Init()
+
+local Tab = Window:MakeTab({
+	Name = "Special Movesets",
+	Icon = "rbxassetid://16890388049",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "These movesets originally were from the Darkest Guy hub, a hub that doesnt work anymore"
+})
+
+Tab:AddButton({
+	Name = "Hero Hunter to Sonic V2",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Darker-TheDarkestGuy/Special-Movesets/refs/heads/main/Sonic%20Moveset"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Brutal Demon to Hallow",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Darker-TheDarkestGuy/Special-Movesets/refs/heads/main/Hallow%20Moveset"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Blade Master to Zoro V2",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Darker-TheDarkestGuy/Special-Movesets/refs/heads/main/Zoro%20Moveset"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Hero Hunter to Illusion Magic Hero",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Darker-TheDarkestGuy/Special-Movesets/refs/heads/main/Illusion%20Magic%20Moveset"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Hero Hunter to Angel",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Darker-TheDarkestGuy/Special-Movesets/refs/heads/main/Angel%20Moveset"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Hero Hunter to Normaller",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Darker-TheDarkestGuy/Special-Movesets/refs/heads/main/Normaller%20Moveset"))()
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Hero Hunter to Shinji",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Darker-TheDarkestGuy/Special-Movesets/refs/heads/main/Shinji%20Moveset"))()
+  	end    
+})
