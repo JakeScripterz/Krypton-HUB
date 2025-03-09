@@ -652,7 +652,6 @@ Tab:AddButton({
    	end
 })
 
-OrionLib:Init()
 
 local Tab = Window:MakeTab({
 	Name = "Special Movesets",
@@ -661,7 +660,7 @@ local Tab = Window:MakeTab({
 })
 
 local Section = Tab:AddSection({
-	Name = "These movesets originally were from the Darkest Guy hub, a hub that doesnt work anymore"
+	Name = "These movesets originally were from the Darkest Guy hub, a discontinued hub"
 })
 
 Tab:AddButton({
@@ -679,23 +678,10 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "Hero Hunter to Angel",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Darker-TheDarkestGuy/Special-Movesets/refs/heads/main/Angel%20Moveset"))()
-  	end    
-})
-
-Tab:AddButton({
 	Name = "Hero Hunter to Normaller",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/Darker-TheDarkestGuy/Special-Movesets/refs/heads/main/Normaller%20Moveset"))()
   	end    
 })
 
-
-Tab:AddButton({
-	Name = "Hero Hunter to Shinji",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Darker-TheDarkestGuy/Special-Movesets/refs/heads/main/Shinji%20Moveset"))()
-  	end    
-})
+OrionLib:Init()
